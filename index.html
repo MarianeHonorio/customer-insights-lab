@@ -91,7 +91,7 @@ init();
 (function(){
   var brand=document.querySelector('.brand');
   brand.innerHTML =
-'<img src=".assets/logo-potencial.png" alt="Logo-pottencial">' +
+'<img src=".ativos/logo-potencial.png" alt="Logo-pottencial">' +
 '<span class="brand-title">Customer Insights Lab</span>';
   var style=document.createElement('style');style.textContent='.brand{gap:12px!important;display:flex!important;align-items:center!important}.brand-logo{width:92px;height:32px;object-fit:contain;object-position:center;display:block}.brand-title{font-size:14px;line-height:1;white-space:nowrap;padding:10px 13px;border-radius:7px;background:#1c1a19;color:#ff671d;letter-spacing:-.15px;font-weight:850}';document.head.appendChild(style);
   var form=document.getElementById('form');form.insertAdjacentHTML('afterbegin','<label style="display:block;margin-top:13px">Outra classificação de tema</label><input id="customTheme" class="filter" style="width:100%;margin:5px 0 12px" placeholder="Ex.: Comunicação, Cobrança, Usabilidade">');
